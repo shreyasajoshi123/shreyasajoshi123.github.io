@@ -1,0 +1,46 @@
+
+
+
+/* Navigation */
+#navbar{
+  flex-direction: column;
+  width: 100%;
+}
+#navbar ul li a {
+  font-size: 1.1rem;
+  padding: 0px 2px;
+  margin: 2px;
+}
+
+/* Home */
+#home{
+height: 260px;
+padding: 10px 6px;
+
+}
+#home::before{
+height: 400px;
+}
+
+#home p{
+  font-size: 1.1rem;
+}
+
+/* aboutus */
+#aboutus{
+  flex-direction: column;
+
+}
+
+#aboutus .box{
+}
+
+#aboutus .box img {
+    height: 113px;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+}
+.h-primary{
+  font-size: 1.6rem;
+}
